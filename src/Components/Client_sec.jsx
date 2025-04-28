@@ -1,8 +1,16 @@
 import React from 'react'
 
 
+// fontawesome icons
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faStar } from "@fortawesome/free-solid-svg-icons";
+import { faStarHalfStroke, faStarHalf  } from "@fortawesome/free-regular-svg-icons";
+
+
 // import images from "../img/image";
-import clnt_img from '../img/client1.jpeg'
+import clnt1_img from '../img/client1.jpeg'
+import clnt2_img from '../img/client2.jpg'
+import clnt3_img from '../img/client3.jpg'
 
 const Client = () => {
   return (
@@ -14,48 +22,59 @@ const Client = () => {
         <div className='client_ch1 c_child'>
 
           <div className='c_child_user'>
-            <img src={clnt_img} alt="" />
+            <img src={clnt1_img} alt="" />
             <div>
               <h6>Jack wilson</h6>
               <p>4 month ago</p>
             </div>
 
           </div>
-          <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia</p>
+          <p>Working with yasir was an outstanding experience. They delivered high-quality, responsive, and efficient solutions tailored to our needs. Highly recommended for their professionalism, technical expertise, and excellent communication throughout the project.</p>
 
           <div className='star_container'>
-
+          <FontAwesomeIcon icon={faStar} />
+          <FontAwesomeIcon icon={faStar} />
+          <FontAwesomeIcon icon={faStar} />
+          <FontAwesomeIcon icon={faStar} />
+          <FontAwesomeIcon icon={faStar} />
           </div>
         </div>
 
         <div className='client_ch2 c_child'>
           <div className='c_child_user'>
-            <img src={clnt_img} alt="" />
+            <img src={clnt2_img} alt="" />
             <div>
               <h6>Jack wilson</h6>
               <p>4 month ago</p>
             </div>
 
           </div>
-          <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia</p>
+          <p>Exceptional work! Yasir built our project exactly as envisioned, with clean code and great attention to detail. Highly recommended!</p>
           <div className='star_container'>
-
+          <FontAwesomeIcon icon={faStar} />
+          <FontAwesomeIcon icon={faStar} />
+          <FontAwesomeIcon icon={faStar} />
+          <FontAwesomeIcon icon={faStar} />
+          <FontAwesomeIcon icon={faStarHalfStroke} />
           </div>
         </div>
 
         <div className='client_ch3 c_child'>
 
           <div className='c_child_user'>
-            <img src={clnt_img} alt="" />
+            <img src={clnt3_img} alt="" />
             <div>
               <h6>Jack wilson</h6>
               <p>4 month ago</p>
             </div>
 
           </div>
-          <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia</p>
+          <p>Very professional and easy to work with. Yasir understood our needs quickly and created a modern, user-friendly solution we love.</p>
           <div className='star_container'>
-
+          <FontAwesomeIcon icon={faStar} />
+          <FontAwesomeIcon icon={faStar} />
+          <FontAwesomeIcon icon={faStar} />
+          <FontAwesomeIcon icon={faStar} />
           </div>
         </div>
 

@@ -20,7 +20,7 @@ const Contacts = () => {
         <div className="contact_child contact_ch1">
 
           <div>
-            <Link to={"#"} target='blank'>
+            <Link to={"https://web.telegram.org/k/#-1878287844"} target='blank'>
             <FontAwesomeIcon className='sm_icon' icon={faTelegram} size='2x' style={{ color: "#24A1DE" }} />
             <p>@YASIR0114</p>
             </Link>
@@ -28,7 +28,7 @@ const Contacts = () => {
           </div>
 
           <div>
-            <Link to={"#"} target='blank'>
+            <Link to={"https://www.linkedin.com/in/yasir-abdulahi-b13640345/"} target='blank'>
             <FontAwesomeIcon className='sm_icon' icon={faLinkedin} size='2x' style={{ color: "#0a66c2" }} />
             <p>@yechoyasir</p>
             </Link>
@@ -47,6 +47,7 @@ const Contacts = () => {
           <form action="#" onSubmit={handleSubmit}>
 
             <h3>Leave Comment</h3>
+            
             <input type="text" name='user name' placeholder='Enter your name' />
 
             <input type="text" name='user email' placeholder='Enter your email' />
